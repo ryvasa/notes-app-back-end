@@ -3,3 +3,4 @@ notes-api-webserver.pem
 .env
 .prod.env
 *.csv
+src/api/uploads/file
