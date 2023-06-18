@@ -1,4 +1,5 @@
 const AWS = require('aws-sdk');
+require('aws-sdk/lib/maintenance_mode_message').suppress = true;
 
 class StorageService {
   constructor() {
